@@ -1,0 +1,53 @@
+.UserStory {
+    width: 64px;
+    height: 100%;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.UserStoryMainContent{
+    max-width: 64px;
+    
+}
+
+.UserStoryIconSpace {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(45deg,#ffbf0a,#fb0171);
+    border-radius: 50%;
+    margin-top: 3px;
+}
+.UserStoryIconWhiteSpace{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+}
+.UserStoryIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    margin: auto;
+    object-fit: cover;
+    /* display: none; */
+}
+
+.UserStoryAddIcon{
+    width: 13px;
+    height: 13px;
+    margin: auto;
+}
+.UserStoryTextWrap{
+    width: 100%;
+    display: flex;
+}
+.UserStoryText{
+    font-size: 37%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: auto;
+    margin-top: 5px;
+}

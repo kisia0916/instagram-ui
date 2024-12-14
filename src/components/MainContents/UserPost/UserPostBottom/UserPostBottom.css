@@ -1,0 +1,46 @@
+.UserPostBottom{
+    width: 100%;
+    height: 110px;
+    display: flex;
+}
+.UserPostBottomContent{
+    width: calc(100% - 32px);
+    height: 100%;
+    margin: auto;
+}
+.UserPostBottomButtons{
+    width: 100%;
+    height: 40px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.UserPostButtomsButtonLeft{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.UserPostButtomsButtonRight{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+.UserPostBottomInfoGoodsCounter{
+    font-weight: 700;
+    font-size: 75%;
+}
+.UserPostBottomInfoContent{
+    font-size: 80%;
+    margin-top: 8px;
+}
+.UserPostBottomInfoContentUserName{
+    font-size: 80%;
+    margin-top: 8px;
+    font-weight: 700;
+}
+.UserPostBottomInfoCreatedAt{
+    font-size: 75%;
+    color: rgb(90, 90, 90);
+}

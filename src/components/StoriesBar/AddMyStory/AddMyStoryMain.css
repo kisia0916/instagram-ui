@@ -1,0 +1,54 @@
+.AddMyStory {
+    width: 64px;
+    height: 100%;
+    margin: auto;
+    margin-right: 6px;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.AddMyStoryIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+}
+
+.AddMyStoryIconSpace {
+    width: 60px ;
+    height: 60px;
+    margin: auto;
+    position: relative;
+}
+
+.AddMyStoryAddIconWrap {
+    width: 16px;
+    height: 16px;
+    background-color: #0095f6;
+    border-radius: 50px;
+    border-color: white;
+    border: solid 1px white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+
+.AddMyStoryAddIcon{
+    width: 13px;
+    height: 13px;
+    margin: auto;
+}
+.AddMyStoryTextWrap{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+}
+.AddMyStoryText{
+    font-size: 37%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

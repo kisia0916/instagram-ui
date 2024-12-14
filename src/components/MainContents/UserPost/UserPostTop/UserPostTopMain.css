@@ -1,0 +1,39 @@
+.UserPostTopMain{
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+.UserPostTopContent{
+    width: calc(100% - 24px);
+    height: 100%;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+}
+.UserPostTopLeft{
+    height: 100%;
+    display: flex;
+}
+.UserPostTopRight{
+    height: 100%;
+    display: flex;
+}
+.UserPostTopUserIcon{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: auto;
+    margin-right: 12px;
+}
+.UserPostTopNameText{
+    font-weight: 700;
+}
+.UserPostTopTexts{
+    font-size: 75%;
+    line-height: 18px;
+    margin: auto;
+}
+.UserPostTopMoreIcon{
+    width: 24px;
+}

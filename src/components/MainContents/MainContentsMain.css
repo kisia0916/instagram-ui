@@ -1,0 +1,6 @@
+.MainContentsMain{
+    width: 100%;
+    height: calc(100vh - 100px - 44px - 48px);
+    box-shadow: 0px 0px 25px 25px rgba(17, 17, 26, 0.08);
+    /* overflow-y: scroll; */
+}

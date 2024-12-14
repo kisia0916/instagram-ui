@@ -1,0 +1,23 @@
+.BottmBarMain{
+    width: 100%;
+    height: 48px;
+    border-top: solid 1px rgb(101, 101, 101);
+    display: flex;
+    justify-content: space-around;
+}
+.ButtonBarButton{
+    width: 47px;
+    height: 47px;
+    border: none;
+    background-color: #ffffff00;
+}
+.ButtonBarButtonIcon{
+    width: 27px;
+    height: 27px;
+}
+.ButtonBarButtonImg{
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    object-fit: cover;
+}
